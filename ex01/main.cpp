@@ -6,7 +6,7 @@
 /*   By: jmafueni <jmafueni@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/15 23:13:17 by jmafueni          #+#    #+#             */
-/*   Updated: 2025/05/16 14:57:35 by jmafueni         ###   ########.fr       */
+/*   Updated: 2025/05/22 13:32:31 by jmafueni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	main(void)
 {
-	size_t	N = 4;
+	size_t	N = 7;
 	Zombie *tab;
 
 	tab = zombieHorde(N, "ZombieHorde");
