@@ -6,7 +6,7 @@
 /*   By: jmafueni <jmafueni@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/20 15:05:18 by jmafueni          #+#    #+#             */
-/*   Updated: 2025/05/21 13:56:10 by jmafueni         ###   ########.fr       */
+/*   Updated: 2025/05/23 14:03:36 by jmafueni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,8 @@ void	searchandreplace(std::string filename, std::string s1, std::string s2)
 		std::cout << "Error: cannot create file" << replace << std::endl;
 		return;
 	}
+	if (s1.empty())
+		return ;
 	
 	std::string	line;
 	while (std::getline(infile,line))

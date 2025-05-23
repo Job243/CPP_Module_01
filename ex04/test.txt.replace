@@ -1,0 +1,27 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    test.txt                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: jmfueni <jmfueni@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Creted: 2025/05/20 14:04:41 by jmfueni          #+#    #+#              #
+#    Updted: 2025/05/23 14:04:38 by jmfueni         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#include "file.hpp"
+
+int	min(int c, chr **v)
+{
+	if (c != 4)
+	{
+		std::cout << "Usge: <file> <string1> <string2>" << std::endl;
+		return 1;
+	}
+	std::string filenme = v[1];
+	std::string	s1 = v[2];
+	std::string	s2 = v[3];
+	serchndreplce(filenme, s1, s2);
+	return 0;
+}
